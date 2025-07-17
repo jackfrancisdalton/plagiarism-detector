@@ -63,7 +63,7 @@ def print_suspects(
 
     print(f"\nFound {len(duplicates)} shared n-grams across scanned files.\n")
 
-    for ngram_hash, files in list(duplicates.items())[:10]:
+    for ngram_hash, files in list(duplicates.items()):
         words = ngram_hash_to_text[ngram_hash]
         files = sorted(files)
 
