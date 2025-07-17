@@ -1,0 +1,12 @@
+[project]
+name = "plagiarism-scanner"
+version = "1.0.0"
+description = "n-gram-based scanner for duplicate text across text files"
+authors = []
+dependencies = [
+
+]
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["."]
